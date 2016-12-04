@@ -13,9 +13,8 @@ void flag(char flag) {
         case 'A':
             print("All");
             break;
-        case 'f':
-            print("force");
-            break;
+        case 'p':
+            print("print")
         default:  print("Unknown flag");
     }
 }

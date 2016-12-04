@@ -24,6 +24,7 @@ int main(int argc, char**argv) {
             print(arg ? "argument" : "Unknown");
             print(std::string(argv[i]));
         }
+        std::cout << "print";
     }
 
     return 0;

@@ -7,9 +7,6 @@ void print(std::string message) {
 
 void flag(char flag) {
     switch(flag) {
-        case 'm':
-            print("message flag");
-            break;
         case 'A':
             print("All");
             break;
